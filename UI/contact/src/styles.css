@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+.header-band{
+    display: flex;
+    margin-bottom: 5px;
+    border-bottom: 2px solid #d3d3d3;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-band svg{
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+}
+.page-layout{
+    padding: 0 24px;
+    background-image: url('./assets/images/home-bg.jpg');
+    background-size: cover;
+}
+.header-band .header-links{
+    display: flex;
+}
+.header-band .header-links a {
+    text-decoration: none;
+    padding: 0 10px;
+}
+.header-band .header-links a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+}
+.conatact-table{
+    width: 100%;
+}
+.table-header{
+background-color: #23395d;
+color: white;
+}
+th:not(last-child){
+border-right: 1px solid white;
+}
+.table-header th{
+    padding: 0 0 0 10px;
+}
+.table-body tr:nth-child(odd){
+background-color: white;
+}
+.table-body tr:nth-child(even){
+    background-color: #d3d3d3;
+}
+.table-body td{
+    padding: 0 0 0 10px;
+}
+.button-header{
+    float: right;
+    margin-bottom: 10px;
+}
